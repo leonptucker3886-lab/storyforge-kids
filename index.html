@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StoryForge Kids – Read-Along Stories Where Your Child Is the Hero (Beta)</title>
+<meta name="description" content="Free read-along stories starring your child: choices that change the story, narration with word highlighting, reading-level tracking and a printable keepsake.">
+<meta name="robots" content="noindex, follow">
+<meta property="og:title" content="StoryForge Kids – Your Child Is the Hero"><meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"StoryForge Kids","applicationCategory":"EducationalApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="beta" role="status">BETA – StoryForge Kids is in testing. Things may change or break.</div>
+<header><h1>StoryForge Kids</h1><p>Read-along stories where <b>your child</b> is the hero.</p></header>
+<main>
+<section id="setup" class="card"><h2>1. Build your hero</h2>
+<label for="hName">Hero's name</label><input id="hName" maxlength="20" placeholder="e.g. Maya">
+<label for="hPro">Hero is a…</label><select id="hPro"><option value="girl">girl</option><option value="boy">boy</option><option value="kid">kid</option></select>
+<label for="hPet">Best animal friend</label><select id="hPet"><option>dragon</option><option>puppy</option><option>unicorn</option><option>robot cat</option><option>owl</option></select>
+<label for="hColor">Favorite color</label><select id="hColor"><option>purple</option><option>blue</option><option>red</option><option>green</option><option>gold</option></select>
+<label for="hStory">Adventure</label><select id="hStory"><option value="forest">The Whispering Forest</option><option value="space">Rocket to the Moon Market</option></select>
+<button id="start">Start my story ▶</button></section>
+<section id="reader" class="card hidden" aria-live="polite"><div id="storyText"></div>
+<div><button id="read" class="alt">🔊 Read to me</button><button id="stop" class="ghost">■ Stop</button>
+<label for="rate" style="display:inline">Speed</label> <input id="rate" type="range" min="0.6" max="1.3" step="0.1" value="0.9" style="width:120px"></div>
+<div class="choices" id="choices"></div></section>
+<section id="end" class="card hidden"><h2>The End! 🎉</h2><p id="endMsg"></p>
+<button id="print">🖨 Print keepsake page</button><button id="again" class="alt">Play again</button></section>
+<section class="card"><h2>Reading tracker</h2>
+<div class="stats"><div class="stat"><b id="stStories">0</b>stories finished</div><div class="stat"><b id="stWords">0</b>words read</div><div class="stat"><b id="stLevel">–</b>avg story grade level</div><div class="stat"><b id="stWpm">–</b>avg words / min</div></div>
+<button id="reset" class="ghost">Reset tracker</button></section>
+</main><div id="keepsake"></div>
+<footer>StoryForge Kids v0.1 · Progress saved only in this browser · No account, no ads, no data collected.</footer>
+<script src="stories.js"></script><script src="app.js"></script></body></html>
