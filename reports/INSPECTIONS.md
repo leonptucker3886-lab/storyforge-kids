@@ -12,4 +12,7 @@ Officer: LT COL Bert. Inspector: LT COL Biana Bar.
 7. To-do discipline (sign only when 1-6 are met)
 
 ## Inspection results
-_None yet - not inspected._
+
+### Inspection #1 - 2026-10-28 - StoryForge Kids v0.2 - 6/7
+- Point 3 docked: LOGBOOK.md recorded only the scripted test of the 8 story paths, not the browser click-through reported in chat.
+- Fix: hand-test entry added to LOGBOOK.md. Status: fixed, awaiting re-inspection.
