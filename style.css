@@ -11,3 +11,6 @@ button.alt{background:var(--acc2)}button.ghost{background:#eee;color:var(--ink)}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}.stat{background:#f4efff;border-radius:12px;padding:12px;text-align:center}.stat b{display:block;font-size:1.6rem}
 .hidden{display:none}footer{text-align:center;font-size:13px;padding:20px;color:#776}#keepsake{display:none}
 @media print{body *{visibility:hidden}#keepsake,#keepsake *{visibility:visible}#keepsake{display:block;position:absolute;left:0;top:0;width:100%;padding:40px;border:8px double var(--acc);font-size:16pt}}
+
+.prog{color:#776;font-size:.9rem;margin:6px 0 0}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--acc2);outline-offset:2px}button:disabled{opacity:.5;cursor:not-allowed}
+@media(max-width:480px){#storyText{font-size:1.25rem}h1{font-size:1.7rem}}
