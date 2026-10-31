@@ -21,3 +21,11 @@ joke:{t:"{N} asked, \u201cWhy did the star go to school? To get brighter!\u201d 
 light:{t:"{N} and the star shined together, and soon all the stars joined in. The whole sky sparkled.",c:[["Fly home","endB"]]},
 endA:{t:"Back home, {N} hugged {pos} {P} and looked up at the moon. Helping others was the best adventure of all.",end:1},
 endB:{t:"From {pos} window, {N} saw one star twinkle extra bright, just for {obj}. Goodnight, space friends!",end:1}}}};
+STORIES.ocean={title:"The Coral Reef Rescue",nodes:{
+start:{t:"{N} and {pos} {P} put on {C} snorkels and dove into the sparkling sea. A little turtle swam up, looking worried.",c:[["Ask the turtle what is wrong","ask"],["Follow the turtle to the reef","reef"]]},
+ask:{t:"\u201cA fishing net is stuck on our reef,\u201d said the turtle. \u201cThe fish cannot get home!\u201d {N} nodded. \u201cWe can help.\u201d",c:[["Swim to the reef","reef"]]},
+reef:{t:"The reef was covered by an old tangled net. Tiny fish peeked out, scared. The {P} looked at {N}.",c:[["Untie the net knot by knot","untie"],["Ask the crabs to snip the net","crabs"]]},
+untie:{t:"Slowly and carefully, {N} untied every knot. One by one, the fish swam free, flashing {C} and silver.",c:[["Wave goodbye to the fish","endA"]]},
+crabs:{t:"Snip, snip! The crabs cut the net while the {P} carried the pieces away. Teamwork saved the reef!",c:[["Celebrate with a sea dance","endB"]]},
+endA:{t:"Back on the beach, {N} hugged {pos} {P}. Somewhere under the waves, a happy turtle was humming a song for {obj}.",end:1},
+endB:{t:"The whole reef danced, and the turtle gave {N} a {C} shell to remember the day. Helping friends is the best treasure.",end:1}}};
