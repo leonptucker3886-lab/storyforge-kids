@@ -20,7 +20,7 @@
 <label for="hStory">Adventure</label><select id="hStory"><option value="forest">The Whispering Forest</option><option value="space">Rocket to the Moon Market</option><option value="ocean">The Coral Reef Rescue</option></select>
 <button id="start">Start my story ▶</button></section>
 <section id="reader" class="card hidden" aria-live="polite"><div id="storyText"></div>
-<div><button id="read" class="alt">🔊 Read to me</button><button id="stop" class="ghost">■ Stop</button>
+<div><button id="read" class="alt">🔊 Read aloud</button><button id="mute" class="ghost" aria-pressed="false">🔈 Sound on</button><button id="stop" class="ghost">■ Stop</button>
 <label for="rate" style="display:inline">Speed</label> <input id="rate" type="range" min="0.6" max="1.3" step="0.1" value="0.9" style="width:120px"></div>
 <div class="choices" id="choices"></div>
 <p class="prog" id="prog"></p><button id="restart" class="ghost">↺ Start over</button></section>
@@ -30,5 +30,5 @@
 <div class="stats"><div class="stat"><b id="stStories">0</b>stories finished</div><div class="stat"><b id="stWords">0</b>words read</div><div class="stat"><b id="stLevel">–</b>avg story grade level</div><div class="stat"><b id="stWpm">–</b>avg words / min (incl. thinking time)</div></div>
 <button id="reset" class="ghost">Reset tracker</button></section>
 </main><div id="keepsake"></div>
-<footer>StoryForge Kids v0.3.1 · Drill 1 check · Progress saved only in this browser · No account, no ads, no data collected.</footer>
-<script src="stories.js"></script><script src="app.js"></script></body></html>
+<footer>StoryForge Kids v0.4 · Sound · Progress saved only in this browser · No account, no ads, no data collected.</footer>
+<script src="stories.js"></script><script src="app.js"></script><script src="sound.js"></script></body></html>
